@@ -4,6 +4,7 @@
 
 先使用MATLAB中的Classification Learner工具箱选择参数生成模型
 ![image](https://github.com/shansicheng/Code-generate-for-Simulink/assets/100584217/bf079870-5fe7-4a64-bca2-99af30cebf33)
+
 注意Y要使用double型的数据
 
 然后选择需要的分类器进行训练，导出训练后的模型。
@@ -13,6 +14,7 @@
 ![image](https://github.com/shansicheng/Code-generate-for-Simulink/assets/100584217/b2220d7e-ab30-4e0f-a080-8e7ad37b93e8)
 
 命令行输入
+
 saveLearnerForCoder(trainedModel_1.ClassificationTree, 'trainedModel_1')
 
 生成名为trainedModel_1.mat文件（里面的结构体不再是原来的trainedModel_1），而不是在工作区右键另存为保存，因为这样的模型没办法使用
