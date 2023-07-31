@@ -1,5 +1,7 @@
 # Code-generate-for-Simulink
-使用Classification Learner工具箱训练并导出模型再在simulink中导出C代码（MATLAB版本为R2020b）
+使用Classification Learner工具箱导出训练后的模型再在simulink中导出C代码（MATLAB版本为R2020b）
+
+Classification Learner工具箱的特性和训练数据方法详见：https://blog.csdn.net/weixin_45649913/article/details/107998061?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-107998061-blog-115793882.235%5Ev38%5Epc_relevant_anti_vip&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-107998061-blog-115793882.235%5Ev38%5Epc_relevant_anti_vip&utm_relevant_index=2
 
 
 先使用MATLAB中的Classification Learner工具箱选择参数生成模型
